@@ -2,7 +2,9 @@ PDM - A CLI tool for managing your extensive PDF collection.
 
 Commands:
 
-pdm import
+pdm import:
+
+Import existing library of PDFs.
 
 pdm stat
 
