@@ -28,6 +28,11 @@ effected will be names of the PDFs.
 Part 2 - Obtain PDF Info
 -------------------------
 
+Basically, PDM will parse the PDF for the PDFs title, the author, and ISBN.
+PDF parsing will be done by an external library. After it obtains the ISBN, 
+if avaliable, PDM will send a request to some api where it can request info
+using the ISBN. Then PDM will parse the return and store the data in a dataase. 
+
 Part 3 - Folder Structure
 --------------------------
 
