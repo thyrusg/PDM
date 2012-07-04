@@ -2,7 +2,7 @@ PDM - A CLI tool for managing your extensive PDF collection.
 
 This is a list of the possible commands::
 
-    pdm import
+    pdm import </your/directory/here>
 
 Import all PDFs located inside the home folder into a new folder or reorganize
 in PDFs current folder:: 
@@ -12,10 +12,10 @@ in PDFs current folder::
 
 Returns stats about your PDF collection. Stats include number of PDFs, total PDFs size, and etc::
 
-   pdm search
+   pdm search <title> <author> <isbn>
 
 Search for a specific title, author, or ISBN::
 
-   pdm remove
+   pdm remove <pdf>
    
 Delete the PDF. 
