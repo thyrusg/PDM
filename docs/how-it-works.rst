@@ -31,10 +31,23 @@ Part 2 - Obtain PDF Info
 Basically, PDM will parse the PDF for the PDFs title, the author, and ISBN.
 PDF parsing will be done by an external library. After it obtains the ISBN, 
 if avaliable, PDM will send a request to some api where it can request info
-using the ISBN. Then PDM will parse the return and store the data in a dataase. 
+using the ISBN. Then PDM will parse the result & store the data in a database.
+
+Possible Resources:
+- Amazon (Do they provide a search api ?)
+- Google Books
+- Library Thing
+- Good Reads
+- Open Library Books
+- isbnDB
+
 
 Part 3 - Folder Structure
 --------------------------
+
+This part is pretty simple. Folder structure only applies if the user chose to
+reorganize their collection into the newly created PDM folder from earlier.
+
 
 Part 4 - PDF Naming Structure
 ------------------------------
